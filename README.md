@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-Through working with this project, I have more chance to work with flexbox and understand more about how it works with just simple design. I can also apply my CSS knowledge to design typgraphy, align items at required position.
+Through working with this project, I have more chance to work with flexbox and understand more about how it works with just simple design. I can also apply my CSS knowledge to design typography and align items at required position.
 
 ```css
 /* The flexbox here is used to center the card vertically with the device view */
@@ -69,7 +69,7 @@ article > * {
 
 ### Useful resources
 
-- [resource 1](https://www.youtube.com/watch?v=u044iM9xsWU) - This helped me to understand basic concepts of flexbox. The instruction and example is really clear and easy to follow
+- [resource 1](https://www.youtube.com/watch?v=u044iM9xsWU) - This helped me to understand basic concepts of flexbox. The instruction and example are really clear and easy to follow
 - [resource 2](https://www.w3schools.com/css/default.asp) - Help me have a deep understanding of html and css. 
 
 ## Author
