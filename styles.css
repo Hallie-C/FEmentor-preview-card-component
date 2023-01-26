@@ -32,14 +32,14 @@ body {
 .container {
     margin: auto;
     max-width: 600px;
-    height: 95vh;
+    height: max(95vh, 480px);
     display: flex;
     align-items: center;
 }
 
 article {
     background-color: var(--clr-light-w);
-    overflow: auto;
+    overflow: hidden;
     border-radius: 10px;
 }
 
@@ -120,6 +120,7 @@ button {
     /* For mobile phones: */
     .container {
       margin: auto;
+      height: auto;
       max-width: 350px;
       padding: 25px 0;
     }

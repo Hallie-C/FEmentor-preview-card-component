@@ -48,11 +48,13 @@ Users should be able to:
 Through working with this project, I have more chance to work with flexbox and understand more about how it works with just simple design. I can also apply my CSS knowledge to design typography and align items at required position.
 
 ```css
-/* The flexbox here is used to center the card vertically with the device view */
+/* The flexbox here is used to center the card vertically with the device view 
+*  I set the height with so when the browser being squished up, it's not going to cut down the origin size of the card
+*/
 .container {
     margin: auto;
     max-width: 600px;
-    height: 100vh;
+    height: max(95vh, 480px);
     display: flex;
     align-items: center;
 }
