@@ -1,0 +1,138 @@
+/********************************* UNIVERSAL SETTINGS *********************************/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ff-secondary: 'Fraunces', serif;
+    --ff-primary: 'Montserrat', sans-serif;
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+
+    --clr-light: hsl(30, 38%, 92%);
+    --clr-light-w: hsl(0, 0%, 100%);
+    --clr-dark-cyan: hsl(158, 36%, 37%);
+    --clr-very-dark: hsl(212, 21%, 14%);
+    --clr-dark-gray: hsl(228, 12%, 48%);
+
+    --fs-paragraph: 14px;
+}
+
+body {
+    background-color: var(--clr-light);
+    font-family: var(--ff-primary);
+}
+
+/********************************* PRODUCT PREVIEW CARD *********************************/
+.container {
+    margin: auto;
+    max-width: 600px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+article {
+    background-color: var(--clr-light-w);
+    overflow: auto;
+    border-radius: 10px;
+}
+
+article {
+    display: flex;
+}
+
+article > * {
+    width: 50%;
+}
+
+/* Design content card area */
+.content {
+    padding: 30px;
+}
+
+h4 {
+    font-weight: var(--fw-regular);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 0.8em;
+    color: var(--clr-dark-gray);
+}
+
+h1 {
+    font-family: var(--ff-secondary);
+    font-size: 2em;
+    margin-top: 20px;
+    color: var(--clr-very-dark);
+    line-height: 1;
+}
+
+p {
+    margin-top: 20px;
+    color: var(--clr-dark-gray);
+    line-height: 1.6;
+    font-size: 0.9em;   
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.sale-price {
+    font-size: 2em;
+    color: var(--clr-dark-cyan);
+    font-family: var(--ff-secondary);
+    padding-right: 20px;
+}
+
+.origin-price {
+    font-size: 0.9em;
+    color: var(--clr-dark-gray);
+    vertical-align: super;
+    text-decoration: line-through;
+}
+
+button {
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: var(--clr-dark-cyan);
+    color: white;
+    font-weight: var(--fw-bold);
+}
+
+/********************************* FOOTER *********************************/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/********************************* MEDIA QUERIES *********************************/
+@media only screen and (max-width: 650px) {
+    /* For mobile phones: */
+    .container {
+      margin: auto;
+      max-width: 350px;
+      padding: 25px 0;
+    }
+
+    article {
+      flex-direction: column;
+    }
+
+    article > * {
+        width: 100%;
+    }
+    img {
+      height: 250px;
+      object-fit: cover;
+    }
+}
