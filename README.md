@@ -23,13 +23,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-![desktop view](https://github.com/Hallie-C/FEmentor-preview-card-component/tree/main/screenshots/screenshot-desktop-view.jpg?raw=true)
-![mobile view](https://github.com/Hallie-C/FEmentor-preview-card-component/tree/main/screenshots/screenshot-mobile-view.jpg?raw=true)
-
 ### Links
 
 - Solution URL: (https://github.com/Hallie-C/FEmentor-preview-card-component)
